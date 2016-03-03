@@ -17,13 +17,19 @@
 </head>
 <body>
 	<!-- HTML goes here -->
-	<div>8</div>
+	<div id="Rand">8</div>
 	<script type="text/javascript">
 		// JavaScript code goes here at the bottom
-		function Random() {
-           return Math.random(1, 9)
-		}
-		Random();
+		// Returns a random number between min (inclusive) and max (exclusive)
+		// Returns a random integer between min (included) and max (included)
+// Using Math.round() will give you a non-uniform distribution!
+
+       function getRandom(min, max) {
+
+  return Math.floor(Math.random() * (9 - 1 + 1)) + 1;
+}
+	  function getRandom();            
+            
 	</script>
 </body>
 </html>
