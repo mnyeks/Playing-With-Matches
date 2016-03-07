@@ -2,34 +2,21 @@
 <html>
 <head>
 	<title>The title of my page</title>
-
-	<style type="text/css">
-	/* CSS goes here */
-	div {
-      font: Arial;
-      font-size: 90px;
-      color: red;
-      background-color: black;
-      opacity: 0.4;
-	}
+	
+	<link rel="stylesheet" type= "text/css" href="style.css">
 	</style>
-	<link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
 	<!-- HTML goes here -->
-	<div id="Rand">8</div>
-	<script type="text/javascript">
-		// JavaScript code goes here at the bottom
-		// Returns a random number between min (inclusive) and max (exclusive)
-		// Returns a random integer between min (included) and max (included)
-// Using Math.round() will give you a non-uniform distribution!
+	<div class= "Rand" id="Rand">6</div>
+	<div class= "Rand" id="Rand1">1</div>
+    <div class= "Rand" id="Rand2">4</div>
 
-       function getRandom(min, max) {
-
-  return Math.floor(Math.random() * (9 - 1 + 1)) + 1;
-}
-	  function getRandom();            
-            
-	</script>
+	  
+	
+		
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
