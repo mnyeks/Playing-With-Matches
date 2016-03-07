@@ -8,3 +8,6 @@ function getRandomIntInclusive(min, max) {
 	  document.getElementById("Rand").innerHTML = getRandomIntInclusive(1, 3);
 	  document.getElementById("Rand1").innerHTML = getRandomIntInclusive(1, 3);
 	  document.getElementById("Rand2").innerHTML = getRandomIntInclusive(1, 3);
+	  
+
+	  

@@ -4,6 +4,13 @@
 	background-color: grey;
 	border: 1px solid black;
 }
+
+.Super {
+	height: 8em;
+	width: 8em;
+	background-color: blue;
+	border: 1px solid black;
+}
 body {
 
 color: orange;
